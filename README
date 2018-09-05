@@ -1,0 +1,31 @@
+Uppgiften Uppgiften kommer gå ut på att implementera olika småövningar som du sedan kommer att koppla till knappar i din redan beﬁntliga miniräknare. 
+När du redovisar dina lösningar så är det viktigt att du kan förklara raderna med kod och även att koden är ordentligt kommenterad.
+1 Omvänd lista Skriv en funktion som tar en array som input, 
+vänder på den och returnerar den vända arrayen.
+
+2 Palindrom Skriv en funktion som returnerar true om en sträng är ett palindrom, 
+och annars false. (Gärna med hjälp av koden från uppgift 1.)
+
+3 Unika siﬀror Skriv en funktion som tar en array av siﬀror som input och returnerar true 
+om siﬀrorn i arrayen alla är unika, annars false.
+
+4 Censurera siﬀror Skriv en funktion som tar en array av siﬀror som input och censurerar 
+de n första siﬀrorna genom att byta ut dessa och returnera en ny array med *-symboler istället för siﬀror.
+T.ex. ska myFunction([1,5,6,3,4], 3) returnera arrayen [*,*,*,3,4]
+
+5 Addera arrayer Skriv en funktion som tar två arrayer med siﬀror som input. 
+Funktionen ska sedan addera de siﬀror i arrayerna som beﬁnner sig på samma index och returnera en ny array med resultatet.
+Exempel: array1 = [1,0,2,3,4]; array2 = [3,5,6,7,8,13]; Förväntat resultat: [4, 5, 8, 10, 12, 13]
+
+6 Dagens datum Skriv en funktion som returnerar dagens datum på denna form: 
+Today is : Tuesday. Current time is : 10 PM : 30 : 38 2
+
+7 Rövarspråk I rövarspråket dubblerar man alla konsonanter och lägger ett “o” emellan, se exempel nedan. 
+(För den här uppgiften ignorerar vi de specialfall som ibland tillämpas där t.ex. “x” behandlas som “ks”.) 
+Uppgift: Skriv en funktion rovarsprak som tar en sträng och returnerar en ny sträng där varje konsonant x har ersatts av strängen xox. 
+Skriv också en funktion karpsravor som gör det omvända, dvs tar en sträng på rövarspråk och “avkodar” den. 
+Funktionerna behöver bara hantera strängar med gemener (inga mellanslag, siﬀror, stora bokstäver, eller andra tecken), och behöver inte hantera åäö. Funktionen karpsravor behöver bara fungera på strängar som verkligen tillhör rövarspråket, ingen felhantering behövs för felaktig indata.
+Exempelvis ska anropet rovarsprak("hej") returnera strängen "hohejoj". Anropet karpsravor("hohejoj") ska då returnera strängen "hej".
+
+8 Koppla till din miniräknare För varje uppgift ska du nu göra en knapp i din miniräknare för varje uppgift. 
+Knappen som implementerar uppgift 1 ska heta U1, uppgift 2 ska heta U2 osv.
